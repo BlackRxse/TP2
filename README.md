@@ -3,6 +3,7 @@ Agenda
 
 Definir una estructura que represente una persona, con los campos nombre, edad, dni y un
 flag de estado.
+
 Hacer un programa que defina un array de 20 ítems de esta estructura y con un menú como el
 siguiente:
 
