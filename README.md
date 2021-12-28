@@ -13,11 +13,17 @@ siguiente:
 4. Imprimir gráfico de edades 
 
 Se utilizará el campo de estado para indicar si el ítem del array esta ocupado o no.
+
 El gráfico deberá ser un gráfico de barras en donde se agruparán 3 barras:
+
 • Menores de 18
+
 • De 19 a 35
+
 • Mayores de 35.
+
 En el eje Y se marcarán la cantidad de personas en el grupo, y en el eje X el grupo
+
 
 Integrantes del grupo:
 Mustaff Noelia
