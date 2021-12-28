@@ -26,6 +26,9 @@ En el eje Y se marcarán la cantidad de personas en el grupo, y en el eje X el g
 
 
 Integrantes del grupo:
+
 Mustaff Noelia
+
 De La Cruz Joaquín
+
 Álvarez Tomás
