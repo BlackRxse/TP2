@@ -1,25 +1,24 @@
 # TP2
 Agenda
 
-Calculadora
+Definir una estructura que represente una persona, con los campos nombre, edad, dni y un
+flag de estado.
+Hacer un programa que defina un array de 20 ítems de esta estructura y con un menú como el
+siguiente:
 
-Trabajo practico N°1
+1. Agregar una persona 
+2. Borrar una persona 
+3. Imprimir lista ordenada por nombre
+4. Imprimir gráfico de edades 
 
-Hacer una calculadora. Para ello el programa iniciará y contará con un menú de opciones:
+Se utilizará el campo de estado para indicar si el ítem del array esta ocupado o no.
+El gráfico deberá ser un gráfico de barras en donde se agruparán 3 barras:
+• Menores de 18
+• De 19 a 35
+• Mayores de 35.
+En el eje Y se marcarán la cantidad de personas en el grupo, y en el eje X el grupo
 
-1. Ingresar 1er operando (A=x)
-2. Ingresar 2do operando (B=y)
-3. Calcular la suma (A+B)
-4. Calcular la resta (A-B)
-5. Calcular la division (A/B)
-6. Calcular la multiplicacion (A*B)
-7. Calcular el factorial (A!)
-8. Calcular todas las operaciones
-9. Salir
-Todas las funciones matemáticas del menú se deberán realizar en una biblioteca aparte, que contenga las funciones para realizar las 4 operaciones.
-
-. En el menú deberán aparecer los valores actuales cargados en los operandos A y B (donde dice "x" e "y" en el ejemplo, se debe mostrar el número cargado)
-
-. Deberán contemplarse los casos de error (división por cero, etc).
-
-Integrantes: Joaquín De La Cruz - Noelia Mustaff - Tomas Alvarez - Nahuel Lorenzo
+Integrantes del grupo:
+Mustaff Noelia
+De La Cruz Joaquín
+Álvarez Tomás
