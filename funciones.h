@@ -8,7 +8,6 @@
 #define MAX 20
 #define VACIO 0
 #define OCUPADO 1
-#define BORRADO 2
 
 #define RED "\x1b[31m"
 #define YELLOW "\x1b[33m"
@@ -102,7 +101,10 @@ void baja(EPersona lista[20])
 
     if (posicion != -1)
     {
-        lista[posicion].estado = BORRADO;
+        strcpy(lista[posicion].nombre, "Vacio");
+        lista[posicion].edad = 0;
+        lista[posicion].dni = 0;
+        lista[posicion].estado = VACIO;
         printf(GREEN "El contacto se dio de baja correctamente!\n" RESET);
     }
     else
