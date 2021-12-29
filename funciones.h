@@ -234,24 +234,4 @@ void imprimirgrafico(EPersona lista[20])
     }
 }
 
-void validarDNIs(EPersona lista[20])
-{
-    for (int i = 0; i < MAX; i++)
-    {
-        for (int j = 0; j < 19; j++)
-        {
-            if(i == j)
-            {
-                return 1;
-            }
-
-            if(lista[i].dni == lista[j].dni)
-            {
-                printf("No pueden existir dos contactos con el mismo DNI");
-                return 0;
-            }
-        }
-    }
-}
-
 #endif // FUNCIONES_H_INCLUDEDS
