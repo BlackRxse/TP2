@@ -34,8 +34,9 @@ int main()
         printf(RED "1- Agregar persona\n" RESET);
         printf(YELLOW "2- Borrar persona\n" RESET);
         printf(GREEN "3- Imprimir lista ordenada por nombre\n" RESET);
-        printf(BLUE "4- Imprimir grafico de edades\n" RESET);
-        printf(MAGENTA "5- Salir\n\n" RESET);
+        printf(BLUE "4- Imprimir lista activa\n" RESET);
+        printf(MAGENTA "5- Imprimir grafico de edades\n" RESET);
+        printf("6- Salir\n\n");
 
         scanf("%d", &opcion);
 
@@ -51,9 +52,12 @@ int main()
             mostrarOrdenado(lista);
             break;
         case 4:
-            imprimirgrafico(lista);
+            mostrarActivos(lista);
             break;
         case 5:
+            imprimirgrafico(lista);
+            break;
+        case 6:
             seguir = 'n';
             break;
         }
