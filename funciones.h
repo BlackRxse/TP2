@@ -4,8 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h>
-#include <conio.h>
-#include <ctype.h>
 
 #define MAX 20
 #define VACIO 0
