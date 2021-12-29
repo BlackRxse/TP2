@@ -29,6 +29,7 @@ void init(EPersona lista[20]);
 void alta(EPersona lista[20]);
 void baja(EPersona lista[20]);
 void mostrarOrdenado(EPersona lista[20]);
+void mostrarActivos(EPersona lista[20]);
 void imprimirgrafico(EPersona lista[20]);
 void ordenamiento(EPersona lista[20]);
 void colocarAll(EPersona listaaux[20], EPersona lista[20]);
@@ -50,9 +51,6 @@ void init(EPersona lista[20])
 
 void alta(EPersona lista[20])
 {
-    char aux1 [50];
-    char aux2 [50];
-
     printf(RED "Ingrese los datos correspondientes \n" RESET);
 
     for (int i = 0; i < MAX; i++)
@@ -125,6 +123,24 @@ void mostrarOrdenado(EPersona lista[20])
             listaaux[i].edad,
             listaaux[i].dni);
         printf(CYAN " %d \n" RESET, listaaux[i].estado);
+    }
+}
+
+void mostrarActivos(EPersona lista[20])
+{
+    EPersona listaaux[20];
+    colocarAll(listaaux, lista);
+    ordenamiento(listaaux);
+    for(int i = 0 ; i < MAX ; i++)
+    {
+        if(listaaux[i].estado == OCUPADO)
+        {
+            printf("%s %d %d",
+            listaaux[i].nombre,
+            listaaux[i].edad,
+            listaaux[i].dni);
+            printf(CYAN " %d \n" RESET, listaaux[i].estado);
+        }
     }
 }
 
