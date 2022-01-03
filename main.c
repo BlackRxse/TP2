@@ -4,10 +4,6 @@
 #include <windows.h>
 #include "funciones.h"
 
-#define MAX 20
-#define VACIO 0
-#define ACTIVO 1
-
 #define RED "\x1b[31m"
 #define YELLOW "\x1b[33m"
 #define GREEN "\x1b[32m"
